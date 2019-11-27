@@ -4,7 +4,9 @@ import { SharedColorHeadingProps } from '../../../index'
 export default class SharedColorHeading extends React.PureComponent<SharedColorHeadingProps, any> {
     render() {
         return (
-        <h1>This is shared heading with color: {this.props.color} </h1>
+        <div>
+            <h1>This is shared heading with color: {this.props.color} </h1>
+        </div>
         )
     }
 }
