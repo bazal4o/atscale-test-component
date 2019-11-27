@@ -5,7 +5,7 @@ export default class SharedColorHeading extends React.PureComponent<SharedColorH
     render() {
         return (
         <div>
-            <h1>This is shared heading with color: {this.props.color} </h1>
+            <h1>This is Not working heading with color: {this.props.color} </h1>
         </div>
         )
     }
