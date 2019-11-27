@@ -3,27 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
+  "types": "lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc -p ."
+    "build": "rm -rf ./lib && tsc -p ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bazal4o/atscale-test-component.git"
-  },
-  "author": "bazal4o",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bazal4o/atscale-test-component/issues"
-  },
-  "homepage": "https://github.com/bazal4o/atscale-test-component#readme",
-  "dependencies": {
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^16.9.13",
+    "@types/react-dom": "^16.9.4",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "typescript": "^3.7.2"
-  },
-  "devDependencies": {
-    "@types/react": "^16.9.13",
-    "@types/react-dom": "^16.9.4"
   }
 }
